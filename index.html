@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Sweet Sisters Baking Co.</title>
+<title>Sweet Sisters Baking Co. - About</title>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,12 +16,13 @@ body {
   background-image: url("background.jpg");
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
 }
 
 h1 {
   font-family: "Oswald", sans-serif;
   text-align: center;
+  margin: 0;
+  color: #fff;
 }
 
 ul {
@@ -36,21 +37,18 @@ ul {
 nav ul li a {
   text-decoration: none;
   color: #fff;
- 
-
 }
-  .navli-container { 
+.navli-container { 
   width: 920px;
   background-color: #C1CBD2;
   margin: 0px auto;
   padding: 20px;
-  }
+}
 
 nav ul li a:hover {
   background-color: #fff;
   color: #C1CBD2;
   border-radius: 10px;
- 
 }
 
 .logo-container {
@@ -74,39 +72,48 @@ nav ul li a:hover {
   margin: 0 auto;
   padding: 20px 0;
   background-color: #535864;
-    background-image: url("Title.png");
+  background-image: url("Title.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-
 
 .nav-container ul li a {
   padding: 10px 15px;
   border-radius: 6px;
 }
 
-.container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 0px;
-  padding: 0px;
-  margin-bottom: 40px;
-}
-
-.container div {
-  background-color: #abd;
-  padding: 10px;
-  color: #fff;
+.about-header-container {
+  background-color: #C1CBD2;
+  width: 87%;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 10px;
   text-align: center;
+  color: #fff;
+  font-family: "Oswald", sans-serif;
 }
 
-.container img {
+/* About Content Container */
+.about-content-container {
+  background-color: rgba(0,0,0,0.5);
+  width: 85%;
+  margin: 20px auto 60px auto;
+  padding: 30px;
+  border-radius: 10px;
+  color: #fff;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.about-content-container img {
   width: 100%;
-  height: auto;
+  max-width: 500px;
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
 }
 
-  
 footer {
   text-align: center;
   background-color: #535864;
@@ -135,18 +142,35 @@ footer img {
     <img src="NLOGOicon.png" alt="title page">
   </div>
 
-    <ul class="navli-container">
-    <li><a href=" https://lilbean050806-byte.github.io/Week6/">HOME</a></li>
+  <ul class="navli-container">
+    <li><a href="https://lilbean050806-byte.github.io/Week6/">HOME</a></li>
     <li><a href="https://lilbean050806-byte.github.io/menu.html/">MENU</a></li>
-    <li><a href=" https://lilbean050806-byte.github.io/ABout/ ">ABOUT</a></li>
-    <li><a href=" https://lilbean050806-byte.github.io/Contact/">CONTACT</a></li>
+    <li><a href="https://lilbean050806-byte.github.io/ABout/">ABOUT</a></li>
+    <li><a href="https://lilbean050806-byte.github.io/Contact/">CONTACT</a></li>
   </ul>
 </nav>
 
+<!-- About Header Container -->
+<div class="about-header-container">
+  <h1>About Sweet Sisters Baking Co.</h1>
+</div>
+
+<!-- About Content -->
+<div class="about-content-container">
+  <p>
+    Sweet Sisters Baking Co. was founded with a passion for creating delightful treats that bring joy to every occasion. Our goal is to craft cakes, cookies, and pastries using the finest ingredients and a lot of love. Each creation is made with care, blending traditional recipes with a modern twist.
+  </p>
+  <p>
+    Our team of baking enthusiasts believes in the magic of sweets and the happiness they spread. From family celebrations to corporate events, we aim to make every moment unforgettable.
+  </p>
+  <img src="IMG_8242-min.jpeg" alt="Our baking team">
+  <p>
+    Follow us on Instagram and YouTube to see behind-the-scenes moments, tutorials, and our latest creations. We love connecting with our community and sharing our sweet journey with all our fans!
+  </p>
+</div>
 
 <footer>
-   &copy; 2022 Sweet Sisters Baking Co.
-
+    &copy; 2022 Sweet Sisters Baking Co.
 </footer>
 
 </body>
